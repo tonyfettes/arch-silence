@@ -6,7 +6,7 @@
 title-text: ""
 desktop-color: "#2e3440"
 
-terminal-font: "Iosevka Term Nerd Font Complete Mono 24"
+terminal-font: "Terminus Regular 18"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -15,48 +15,48 @@ terminal-border: "0"
 
 #progress bar
 + progress_bar {
-	id = "__timeout__"
-	left = 0
-	top = 0
-	height = 15
-	width = 100%
-	show_text = false
+  id = "__timeout__"
+  left = 0
+  top = 0
+  height = 15
+  width = 100%
+  show_text = false
 
-	# just two vertical pixels of color #1793d1
-    bar_style = "progress_bar/progress_bar_*.png"
-    highlight_style = "progress_bar/progress_bar_hl_*.png"
+  # just two vertical pixels of color #1793d1
+  bar_style = "progress_bar/progress_bar_*.png"
+  highlight_style = "progress_bar/progress_bar_hl_*.png"
 }
 
 # arch logo
 + image {
-	top = 50%-200
-	left = 50%-84
+  top = 50%-200
+  left = 50%-282
   file = "arch_logo.png"
 }
 
 #boot menu
 + boot_menu {
-	left = 50%-150
-	width = 500
-	top = 50%+100
-	height = 300
+  left = 50%-150
+  width = 500
+  top = 50%+100
+  height = 300
 
-	item_font = "Iosevka Term Nerd Font Complete Mono 24"
-	item_color = "#4c566a"
-	selected_item_font = "Iosevka Term Nerd Font Complete Mono 24"
-	selected_item_color= "#eceff4"
+  item_font = "Iosevka Term Nerd Font Complete Mono 24"
+  item_color = "#4c566a"
+  selected_item_font = "Iosevka Term Nerd Font Complete Mono 24"
+  selected_item_color= "#eceff4"
 
-	item_height = 26
-	item_padding = 0
-	item_icon_space = 0
-	item_spacing = 1
-	scrollbar = false
+  item_height = 30
+  item_padding = 0
+  item_icon_space = 0
+  item_spacing = 1
+  scrollbar = false
 }
 
 #help bar at the bottom
 + image {
-	top = 100%-56
-	left = 50%-175
-    file = "help_bar.png"
+  top = 100%-56
+  left = 50%-175
+  file = "help_bar.png"
 }
 
