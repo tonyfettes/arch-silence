@@ -4,9 +4,9 @@
 
 #general settings
 title-text: ""
-desktop-color: "#333"
+desktop-color: "#2e3440"
 
-terminal-font: "Dejavu Sans Mono 12"
+terminal-font: "Iosevka Term Nerd Font Complete Mono 14"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -41,10 +41,10 @@ terminal-border: "0"
 	top = 50%+100
 	height = 300
 
-	item_font = "DejaVu Sans Bold 14"
-	item_color = "#999"
+	item_font = "Iosevka Term Nerd Font Complete Mono 14"
+	item_color = "#eceff4"
 	selected_item_font = "DejaVu Sans Bold 14"
-	selected_item_color= "#fff"
+	selected_item_color= "#d8dee9"
 
 	item_height = 26
 	item_padding = 0
